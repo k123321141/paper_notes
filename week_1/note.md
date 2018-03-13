@@ -1,4 +1,4 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 ## Iterative Quantization: A Procrustean Approach to Learning Binary Codes
 ## Yunchao Gong and Svetlana Lazebnik
 
@@ -29,13 +29,18 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=\left&space;\{&space;x_1,&space;x_2,...,x_n&space;\right&space;\}&space;,&space;x&space;\in&space;\mathbb{R}^d&space;,&space;X\in&space;\mathbb{R}^{n\times&space;d}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\left&space;\{&space;x_1,&space;x_2,...,x_n&space;\right&space;\}&space;,&space;x&space;\in&space;\mathbb{R}^d&space;,&space;X\in&space;\mathbb{R}^{n\times&space;d}" title="\left \{ x_1, x_2,...,x_n \right \} , x \in \mathbb{R}^d , X\in \mathbb{R}^{n\times d}" /></a>
 與assumption 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{n}x_i&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{n}x_i&space;=&space;0" title="\sum_{i=1}^{n}x_i = 0" /></a>
+透過PCA降維得到<a href="https://www.codecogs.com/eqnedit.php?latex=V&space;=&space;XW&space;,W&space;\in&space;\mathbb{R}^{d&space;\times&space;c}&space;,&space;V&space;\in&space;\mathbb{R}^{n\times&space;c}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?V&space;=&space;XW&space;,W&space;\in&space;\mathbb{R}^{d&space;\times&space;c}&space;,&space;V&space;\in&space;\mathbb{R}^{n\times&space;c}" title="V = XW ,W \in \mathbb{R}^{d \times c} , V \in \mathbb{R}^{n\times c}" /></a>
+
+做完降維之後，encode的每一個x輸出長這樣<a href="https://www.codecogs.com/eqnedit.php?latex=v&space;\in&space;\mathbb{R}^c&space;,&space;sgn(v)&space;\in&space;\left&space;\{&space;{-1,1}&space;\right&space;\}^c" target="_blank"><img src="https://latex.codecogs.com/gif.latex?v&space;\in&space;\mathbb{R}^c&space;,&space;sgn(v)&space;\in&space;\left&space;\{&space;{-1,1}&space;\right&space;\}^c" title="v \in \mathbb{R}^c , sgn(v) \in \left \{ {-1,1} \right \}^c" /></a>
+接下來要最小化quantization error，也就是到hypercube的Euclidean distance
+\left \| sgn(v) - v) \right \|^2
+
 
 PCA降維的資料在各維度上的variance不平衡的問題
-透過適當的正交轉換[1]
+透過正交轉換不影響PCA的objective function
+找出適當的正交矩陣*R*可以降低quantization error
+
 
 再來遞迴得使用ITQ降低quantization error
 
 
-[1]: H. Je ́gou, M. Douze, C. Schmid, and P. Perez. Aggregating local descriptors into a compact image representation. CVPR, 2010.
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{n}x_i&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{n}x_i&space;=&space;0" title="\sum_{i=1}^{n}x_i = 0" /></a>

@@ -35,7 +35,8 @@
 <a href="https://www.codecogs.com/eqnedit.php?latex=\left&space;\|&space;sgn(v)&space;-&space;v&space;\right&space;\|^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\left&space;\|&space;sgn(v)&space;-&space;v&space;\right&space;\|^2" title="\left \| sgn(v) - v \right \|^2" /></a>
 
 
-正交轉換不影響PCA的objective function
+若*W*為最佳解，則正交轉換WR不影響最佳性質
+
 找出適當的正交矩陣*R*可以降低quantization error
 
 最佳化編碼的問題變成最小化問題
@@ -59,14 +60,16 @@
 
 更新<a href="https://www.codecogs.com/eqnedit.php?latex=R&space;=&space;\tilde{S}S^T" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R&space;=&space;\tilde{S}S^T" title="R = \tilde{S}S^T" /></a>
 
-以下是論文中的圖表數據，ITQ終止條件並非收斂到局部最佳解，而是採用實驗中的固定次數50
+以下是論文中的圖表數據，在實驗中發現，適合的ITQ終止條件並非收斂到局部最佳解，而採用固定次數50
 ![alt text](https://github.com/k123321141/paper_notes/blob/master/week_1/img1.png "Figure 2. (a) Quantization error for learning a 32-bit ITQ code on the CIFAR dataset (see Section 3.1). (b) Running time for learning different 32-bit encodings on the Tiny Images dataset. The timings were obtained on a workstation with a 2-core Xeon 3.33GHZ CPU and 32G memory.
 ")
 
 
 # 個人總結
-
-採用PCA降維以後，尋找最佳的正交矩陣作旋轉，最小化quantization error，得到最佳化二維編碼。
+前置處理利用降維的方法，將原先d維的向量，轉換成c維向量
+然後最小化與二維編碼hypercube的Euclidean distance
+這裡物理意義上解釋為，與原始資料距離越相近意味保留更多原始維度上的訊息。
+尋找最佳的正交矩陣作旋轉，最小化quantization error，得到最佳化二維編碼。
 
 下圖是實例效果
 ![alt text](https://github.com/k123321141/paper_notes/blob/master/week_1/img2.png "Figure 8. Sample top retrieved images for query in (a) using 32 bits. Red rectangle denotes false positive. Best viewed in color.

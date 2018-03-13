@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ## Iterative Quantization: A Procrustean Approach to Learning Binary Codes
 ## Yunchao Gong and Svetlana Lazebnik
 
@@ -24,7 +25,12 @@
 論文提出的方法，將降維過後的資料，並不限於PCA(unsupervised)或是CCA(supervised embeddings)等方法，
 以最小化quantization error轉換到binary hypercube的頂點上
 
-首先處理PCA降維的資料在各維度上的variance不平衡的問題
+使用論文中的notation 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\left&space;\{&space;x_1,&space;x_2,...,x_n&space;\right&space;\}&space;,&space;x&space;\in&space;\mathbb{R}^d&space;,&space;X\in&space;\mathbb{R}^{n\times&space;d}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\left&space;\{&space;x_1,&space;x_2,...,x_n&space;\right&space;\}&space;,&space;x&space;\in&space;\mathbb{R}^d&space;,&space;X\in&space;\mathbb{R}^{n\times&space;d}" title="\left \{ x_1, x_2,...,x_n \right \} , x \in \mathbb{R}^d , X\in \mathbb{R}^{n\times d}" /></a>
+與assumption 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{n}x_i&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{n}x_i&space;=&space;0" title="\sum_{i=1}^{n}x_i = 0" /></a>
+
+PCA降維的資料在各維度上的variance不平衡的問題
 透過適當的正交轉換[1]
 
 再來遞迴得使用ITQ降低quantization error
@@ -32,3 +38,4 @@
 
 [1]: H. Je ́gou, M. Douze, C. Schmid, and P. Perez. Aggregating local descriptors into a compact image representation. CVPR, 2010.
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sum_{i=1}^{n}x_i&space;=&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sum_{i=1}^{n}x_i&space;=&space;0" title="\sum_{i=1}^{n}x_i = 0" /></a>

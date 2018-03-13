@@ -33,14 +33,30 @@
 
 做完降維之後，encode的每一個x輸出長這樣<a href="https://www.codecogs.com/eqnedit.php?latex=v&space;\in&space;\mathbb{R}^c&space;,&space;sgn(v)&space;\in&space;\left&space;\{&space;{-1,1}&space;\right&space;\}^c" target="_blank"><img src="https://latex.codecogs.com/gif.latex?v&space;\in&space;\mathbb{R}^c&space;,&space;sgn(v)&space;\in&space;\left&space;\{&space;{-1,1}&space;\right&space;\}^c" title="v \in \mathbb{R}^c , sgn(v) \in \left \{ {-1,1} \right \}^c" /></a>
 接下來要最小化quantization error，也就是到hypercube的Euclidean distance
-\left \| sgn(v) - v) \right \|^2
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\left&space;\|&space;sgn(v)&space;-&space;v&space;\right&space;\|^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\left&space;\|&space;sgn(v)&space;-&space;v&space;\right&space;\|^2" title="\left \| sgn(v) - v \right \|^2" /></a>
 
 
 PCA降維的資料在各維度上的variance不平衡的問題
 透過正交轉換不影響PCA的objective function
 找出適當的正交矩陣*R*可以降低quantization error
 
+最佳化編碼的問題變成最小化問題
+<a href="https://www.codecogs.com/eqnedit.php?latex=Q&space;(B,R)&space;=&space;\left&space;\|&space;B&space;-&space;VR&space;\right&space;\|^2_F" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Q&space;(B,R)&space;=&space;\left&space;\|&space;B&space;-&space;VR&space;\right&space;\|^2_F" title="Q (B,R) = \left \| B - VR \right \|^2_F" /></a>
 
-再來遞迴得使用ITQ降低quantization error
+接下來遞迴地執行ITQ降低quantization error，分別使用fix *R* 求 *B*，以及 fix *B* 求 *R*
 
+
+### Fix R and update B
+最大化問題
+<a href="https://www.codecogs.com/eqnedit.php?latex=tr(BR^TV^T)&space;=&space;\sum^n_{i=1}\sum^c_{j=1}B_{ij}\tilde{V}_{ij}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?tr(BR^TV^T)&space;=&space;\sum^n_{i=1}\sum^c_{j=1}B_{ij}\tilde{V}_{ij}" title="tr(BR^TV^T) = \sum^n_{i=1}\sum^c_{j=1}B_{ij}\tilde{V}_{ij}" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=B_{ij}&space;=&space;1,&space;\textrm{if&space;}&space;\tilde{V}_{ij}&space;\geq&space;0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?B_{ij}&space;=&space;1,&space;\textrm{if&space;}&space;\tilde{V}_{ij}&space;\geq&space;0" title="B_{ij} = 1, \textrm{if } \tilde{V}_{ij} \geq 0" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=B_{ij}&space;=&space;-1,&space;\textrm{otherwise}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?B_{ij}&space;=&space;-1,&space;\textrm{otherwise}" title="B_{ij} = -1, \textrm{otherwise}" /></a>
+
+### Fix B and update R
+對<a href="https://www.codecogs.com/eqnedit.php?latex=B^TV" target="_blank"><img src="https://latex.codecogs.com/gif.latex?B^TV" title="B^TV" /></a>做SVD分解
+求得<a href="https://www.codecogs.com/eqnedit.php?latex=S\Omega&space;\tilde{S}^T" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S\Omega&space;\tilde{S}^T" title="S\Omega \tilde{S}^T" /></a>以後
+更新<a href="https://www.codecogs.com/eqnedit.php?latex=R&space;=&space;\tilde{S}S^T" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R&space;=&space;\tilde{S}S^T" title="R = \tilde{S}S^T" /></a>
 

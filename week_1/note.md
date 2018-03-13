@@ -59,4 +59,18 @@
 
 更新<a href="https://www.codecogs.com/eqnedit.php?latex=R&space;=&space;\tilde{S}S^T" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R&space;=&space;\tilde{S}S^T" title="R = \tilde{S}S^T" /></a>
 
+以下是論文中的圖表數據，ITQ終止條件並非收斂到局部最佳解，而是採用實驗中的固定次數50
+![alt text](https://github.com/k123321141/paper_notes/blob/master/week_1/img1.png "Figure 2. (a) Quantization error for learning a 32-bit ITQ code on the CIFAR dataset (see Section 3.1). (b) Running time for learning different 32-bit encodings on the Tiny Images dataset. The timings were obtained on a workstation with a 2-core Xeon 3.33GHZ CPU and 32G memory.
+")
+
+
+# 個人總結
+
+採用PCA降維以後，尋找最佳的正交矩陣作旋轉，最小化quantization error，得到最佳化二維編碼。
+
+下圖是實例效果
+![alt text](https://github.com/k123321141/paper_notes/blob/master/week_1/img2.png "Figure 8. Sample top retrieved images for query in (a) using 32 bits. Red rectangle denotes false positive. Best viewed in color.
+")
+
+
 

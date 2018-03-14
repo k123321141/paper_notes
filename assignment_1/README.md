@@ -2,7 +2,6 @@
 ## Iterative Quantization: A Procrustean Approach to Learning Binary Codes
 ## Yunchao Gong and Svetlana Lazebnik
 
-相關先備筆記 [PCA](https://github.com/k123321141/paper_notes/blob/master/assignment_1/PCA.md)
 
 ### Abstract
 

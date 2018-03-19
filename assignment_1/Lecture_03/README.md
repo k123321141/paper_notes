@@ -30,6 +30,6 @@ cleaning network不僅學習了noisy的樣式，也學習到label空間中的隱
 這裡透過cleaning network，讓網路學習label空間中的關係。
 
 文中基於兩項事實，假設這樣的模型結構會成功。</br>
-1.  multi-label之間的關係並不是相互獨立的 -> 可以從學習noisy label中學習對應關係。</br>
-2.  semantic label需要考慮到圖片本身隱含的資訊 -> 透過CNN擷取的feature map配合cleaning network可以產出更佳的sematic label。</br>
+### 1.  multi-label之間的關係並不是相互獨立的 -> 可以從學習noisy label中學習對應關係。</br>
+### 2.  semantic label需要考慮到圖片本身隱含的資訊 -> 透過CNN擷取的feature map配合cleaning network可以產出更佳的sematic label。</br>
 

@@ -21,6 +21,7 @@ CNN在電腦視覺上取得廣大的成果，現下的瓶頸在於訓練資料�
 常見的做法是，利用大量包含noisy label進行pre-train，後續使用clean label data來fine-tune。
 
 此篇論文認為，clean label可以提供更多信息，可以做到將noisy label對應到clean label。
+
 cleaning network不僅學習了noisy的樣式，也學習到label空間中的隱藏信息。
 * (臆測補充：如果clean label只用來作fine-tune太浪費了，直覺上noisy label跟clean label有某種程度上的關聯，像是子集關係或是相似的描述。
 不如學一個網路特別作為「降噪」的功能。

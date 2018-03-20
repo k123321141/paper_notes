@@ -42,61 +42,25 @@ invariance的意思在於，如果該cue屬於invariance，對於缺失的low-le
 文中使用mean Average Precision (mAP)來衡量一個網路的效能。</br>
 這是不同的模擬資料量對於mAP的影響。</br>
 ![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img4.png)</br>
+2000是個較好的選擇。</br>
 
 #### 找出invariance
 
 要找出重要的low-level資訊，就需要不同的模擬資料，同樣使用mAP衡量，下圖表示不同設定的效能。</br>
-![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img5.png)</br>
+![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img5.png "Table 1. Detection results on the PASCAL VOC2007 test dataset. Each row is trained on different background and texture configuration of virtual data shown in the top table. In the middle table, the DCNN is trained on ImageNet ILSVRC 1K classification data and finetuned on the PASCAL training data; in the bottom table, the network is not fine-tuned on PASCAL.")</br>
+上圖指出，在PASC-FT表格(trained on ImageNet, fine-tune on PASCAL)，RG-RR與W-RR表現甚至好一些，那麼可能表示background color屬於cue invarince</br>
+相對而言，花紋就是比較重要的資訊。</br>
+
+另外要觀察的是網路對於哪些輸入會有最高的「反應」，找出網路認為最符合某類別的輸入，也是找出invariance的指標。</br>
+![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img6.png "Figure 4. Top 10 regions with strongest activations for 2 pool5 units using the method of [5]. Overlay of the unit’s receptive field is drawn in white and normalized activation value is shown in the upper-left corner. For each unit we show results on (top to bottom): real PASCAL images, RR-RR, W-RR, W-UG. See text for further explanation.")</br>
+左邊電視機的範例，從真實物件-真實背景到模擬物件-無背景，網路activate的對象大部分都是對的。</br>
+右邊綿羊的範例，W-UG，白背景-全灰階物件時，網路明顯無法判斷出正確的綿羊圖片，花紋是相對重要的資訊。</br>
 
 
+## 結論
 
-
-
-
-## 以往作法
-
-常見的做法是，利用大量包含noisy label進行pre-train，後續使用clean label data來fine-tune。
-
-此篇論文認為，clean label可以提供更多信息，可以做到將noisy label對應到clean label。</br>
-cleaning network不僅學習了noisy的樣式，也學習到label空間中的隱藏信息。
-
-* 臆測補充：如果clean label只用來作fine-tune太浪費了，直覺上noisy label跟clean label有某種程度上的關聯，像是子集關係或是相似的描述。
-不如學一個網路特別作為「降噪」的功能。</br>
-就訓練資料上的性質來說，並沒有得到一批真正乾淨的label，另外訓練的這個網路比較像是下面描述的直覺。</br>
-我希望這個網路可以告訴我這張圖片是小籠包，而不是「餃子皮」「食物」「中式料理」或甚至錯誤的label等等。</br>
-直覺上，透過noisy標籤的描述有點像猜謎遊戲，那麼強迫網路去學習如何猜謎，可以讓網路更著重在我們認為重要的部分，</br>也就是模擬人先得到了概念性的描述，最後再輸出「小籠包」。</br>
-概念上跟CNN的shared weights很像，透過shared weights，讓網路學習空間關係。</br>
-這裡透過cleaning network，讓網路學習label空間中的關係。
-
-文中基於兩項假設，設計這樣的模型結構。</br>
-1.  multi-label之間的關係並不是相互獨立的 -> 可以從學習noisy label中學習對應關係。</br>
-2.  semantic label需要考慮到圖片本身隱含的資訊 -> 透過CNN擷取的feature map配合cleaning network可以產出更佳的sematic label。</br>
-
-## key details
-
-![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img2_.png "Figure3. Overviewofourapproachtotrainanimageclassifierfromaverylargesetoftrainingsampleswithnoisylabels(orange)anda small set of samples which additionally have human verification (green). The model contains a label cleaning network that learns to map noisy labels to clean labels, conditioned on visual features from an Inception V3 ConvNet. The label cleaning network is supervised by the human verified labels and follows a residual architecture so that it only needs to learn the difference between the noisy and clean labels. The image classifier shares the same visual features and learns to directly predict clean labels supervised by either (a) the output of the label cleaning network or (b) the human rated labels, if available.")
-
-### cleaning network
-
-1.  首先將noisy label跟feature maps利用FCN(Fully-Connected Network)投影到低維度，將兩向量接起來再過一層FCN輸出multi-label。</br>
-2.  加入residual network的概念，加入一個nosiy label space的residual block。</br>用意是讓cleaning network不用學習整個label space裡的關係，讓cleaning network專注在noisy label與cleaned label的差異。</br>
-3.  Loss function的定義，cleaning network線性輸出會被clip([0, 1])，文中採用absolute distance;嘗試更平滑的輸出可以採用mse。
-
-### classifier network
-
-訓練最終classifier的Loss function採用multi-label cross-entropy。
-target label是cleaned label如果輸入存在cleaned label；否則為cleaning network的輸出。
-
-### experience details
-
-1.  為了平衡loss weight, loss = 0.1\*cleaning loss + classify loss。</br>
-2.  sample的比率，9:1 for noisy and cleaned label.</br>
-
-### 與其他baseline的比較
-
-![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img3_.png "")
-
-### 補充
-
-可以嘗試透過這種做法來實作gan，含有大量hash tag的資料很容易搜集，與這篇work的情境很類似。</br>
+DCNN經過fine-tune以後，存在更多invariance，使得模擬資料包不包含這些cue，對於網路的效能影響不大。</br>
+基於這項假設，根據不同的應用，利用模擬的資料，可以解決訓練資料不足。</br>
+像是新的類別需要被辨識時，使用pre-train network，由於是新類別，基於fine-tune會出現更多cue invariance。</br>
+這時候就相當適合使用模擬資料做訓練。</br>
 

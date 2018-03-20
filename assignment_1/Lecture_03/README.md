@@ -29,8 +29,18 @@ cleaning network不僅學習了noisy的樣式，也學習到label空間中的隱
 概念上跟CNN的shared weights很像，透過shared weights，讓網路學習空間關係。</br>
 這裡透過cleaning network，讓網路學習label空間中的關係。
 
-文中基於兩項事實，假設這樣的模型結構會成功。</br>
+文中基於兩項假設，設計這樣的模型結構。</br>
 1.  multi-label之間的關係並不是相互獨立的 -> 可以從學習noisy label中學習對應關係。</br>
 2.  semantic label需要考慮到圖片本身隱含的資訊 -> 透過CNN擷取的feature map配合cleaning network可以產出更佳的sematic label。</br>
 
-可是嘗試透過這種做法來實作gan
+## key details
+
+![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img2.png "Figure3. Overviewofourapproachtotrainanimageclassifierfromaverylargesetoftrainingsampleswithnoisylabels(orange)anda small set of samples which additionally have human verification (green). The model contains a label cleaning network that learns to map noisy labels to clean labels, conditioned on visual features from an Inception V3 ConvNet. The label cleaning network is supervised by the human verified labels and follows a residual architecture so that it only needs to learn the difference between the noisy and clean labels. The image classifier shares the same visual features and learns to directly predict clean labels supervised by either (a) the output of the label cleaning network or (b) the human rated labels, if available.)
+
+### cleaning network
+
+1.  </br>首先將noisy label跟feature maps利用FCN(Fully-Connected Network)投影到低維度，將兩向量接起來再過一層FCN輸出multi-label。
+2.  </br>加入residual network的概念，加入一個nosiy label space的residual block。</br>用意是讓cleaning network不用學習整個label space裡的關係，讓cleaning network專注在noisy label與cleaned label的差異。
+
+
+可以嘗試透過這種做法來實作gan

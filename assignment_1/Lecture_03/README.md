@@ -35,7 +35,7 @@ cleaning network不僅學習了noisy的樣式，也學習到label空間中的隱
 
 ## key details
 
-![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img2.png "Figure3. Overviewofourapproachtotrainanimageclassifierfromaverylargesetoftrainingsampleswithnoisylabels(orange)anda small set of samples which additionally have human verification (green). The model contains a label cleaning network that learns to map noisy labels to clean labels, conditioned on visual features from an Inception V3 ConvNet. The label cleaning network is supervised by the human verified labels and follows a residual architecture so that it only needs to learn the difference between the noisy and clean labels. The image classifier shares the same visual features and learns to directly predict clean labels supervised by either (a) the output of the label cleaning network or (b) the human rated labels, if available.")
+![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img3.png "Figure3. Overviewofourapproachtotrainanimageclassifierfromaverylargesetoftrainingsampleswithnoisylabels(orange)anda small set of samples which additionally have human verification (green). The model contains a label cleaning network that learns to map noisy labels to clean labels, conditioned on visual features from an Inception V3 ConvNet. The label cleaning network is supervised by the human verified labels and follows a residual architecture so that it only needs to learn the difference between the noisy and clean labels. The image classifier shares the same visual features and learns to directly predict clean labels supervised by either (a) the output of the label cleaning network or (b) the human rated labels, if available.")
 
 ### cleaning network
 

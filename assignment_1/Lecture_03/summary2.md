@@ -6,17 +6,47 @@
 
 CNN在電腦視覺上取得廣大的成果，現下的瓶頸在於訓練資料的取得。</br>
 鑑於現在3D模型的資源逐年產出，如何利用大量的3D廉價資源去取代昂貴的真實2D照片。</br>
-但是用3D模型缺乏了許多low-level資訊 : realistic object texture, pose, or background.</br>
+許多應用需要人為標出bounding box，但是這類型的資料相對的昂貴。</br>
+而3D模型缺乏真實性，缺失了許多low-level資訊 : realistic object texture, pose, or background.</br>
 
-這篇論文發現在物件識別()
-缺乏大量且正確的semantic annotations訓練資料。</br>
-於是這篇論文探討，如何用少量的昂貴正確資料，解決上述窘境。
+這篇論文討論哪些細節是DCNN需要的，根據不同的任務，察覺到有部分的細節是不重要的。</br>
+意指部分細節的影響力對DCNN的能力相當小，例如HOG-based classifier對於顏色是灰階或是彩色的影響相當小，被認為是重要的是物件的「輪廓」。</br>
+此時，對於HOG-based classifier，顏色變成為了文中提到的「cue invariance」</br>
 
-### 作法
+那麼，找出哪些low-level資訊屬於「invariance」，就可以利用3D模型來增加資料不足的窘境。</br>
 
-既然大部分的資料是屬於noisy label，那麼訓練一個網路負責處理noisy label，藉其加強最終分類的效果。</br>
-![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img1.png "Figure 2. High-level overview of our approach. Noisy input la- bels are cleaned and then used as targets for the final classifier. The label cleaning network and the multi-label classifier are jointly trained and share visual features from a deep convnet. The clean- ing network is supervised by the small set of clean annotations (not shown) while the final classifier utilizes both the clean data and the much larger noisy data.")</br>
-通過label cleaning network後的cleaned label，可以幫助multi-label classifier。
+### 作法-如何利用3D模型訓練一個object detecotr
+
+#### 模疑資料
+
+利用3D模型模擬需要注意很多low-level資訊，文中模擬了較少的性質。</br>
+object texture, color, 3D pose and 3D shape, as well as background scene texture and color.</br>
+如果應用中存在某些資訊屬於「invariance」，例如色彩，那麼模擬時只需要使用灰階就行了。</br>
+1.  選出5-25種飛機的模型。</br>
+2.  選出3-4種視角。</br>
+3.  加入表面材質及背景。</br>
+4.  加入一些雜訊。(random rotation)</br>
+5.  加入真實圖片。(optional)</br>
+
+#### 分析invariance
+
+invariance的意思在於，如果該cue屬於invariance，對於缺失的low-level資訊，DCNN中的High-level層中的neuron被激發的分布仍然相同。</br>
+也就是說DCNN並沒有將該cue視為特徵。</br>
+繞一大圈講完，論文中的做法就是，模擬時分別使用包含該cue與否的兩個資料集，最後用兩個網路的效能去判定該cue是否重要。</br>
+並且認為在不同的任務，存在不同的cue invariance，像是識別花豹的任務，花紋就變得很重要。</br>
+
+### 實驗結果
+
+#### 找出適合的模擬資料量
+
+文中使用mean Average Precision (mAP)來衡量一個網路的效能。</br>
+
+![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img4.png)
+
+
+
+
+
 
 ## 以往作法
 

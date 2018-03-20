@@ -40,8 +40,13 @@ invariance的意思在於，如果該cue屬於invariance，對於缺失的low-le
 #### 找出適合的模擬資料量
 
 文中使用mean Average Precision (mAP)來衡量一個網路的效能。</br>
+這是不同的模擬資料量對於mAP的影響。</br>
+![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img4.png)</br>
 
-![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img4.png)
+#### 找出invariance
+
+要找出重要的low-level資訊，就需要不同的模擬資料，同樣使用mAP衡量，下圖表示不同設定的效能。</br>
+![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img5.png)</br>
 
 
 

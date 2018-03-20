@@ -39,8 +39,17 @@ cleaning network不僅學習了noisy的樣式，也學習到label空間中的隱
 
 ### cleaning network
 
-1.  </br>首先將noisy label跟feature maps利用FCN(Fully-Connected Network)投影到低維度，將兩向量接起來再過一層FCN輸出multi-label。
-2.  </br>加入residual network的概念，加入一個nosiy label space的residual block。</br>用意是讓cleaning network不用學習整個label space裡的關係，讓cleaning network專注在noisy label與cleaned label的差異。
+1.  首先將noisy label跟feature maps利用FCN(Fully-Connected Network)投影到低維度，將兩向量接起來再過一層FCN輸出multi-label。</br>
+2.  加入residual network的概念，加入一個nosiy label space的residual block。</br>用意是讓cleaning network不用學習整個label space裡的關係，讓cleaning network專注在noisy label與cleaned label的差異。</br>
+3.  Loss function的定義，cleaning network線性輸出會被clip([0, 1])，文中採用absolute distance;嘗試更平滑的輸出可以採用mse。
 
+### classifier network
+
+訓練最終classifier的Loss function採用multi-label cross-entropy。
+target label是cleaned label如果輸入存在cleaned label；否則為cleaning network的輸出。
+
+### experience details
+
+為了平衡loss weight, loss = 0.1\*cleaning loss + classify loss 
 
 可以嘗試透過這種做法來實作gan

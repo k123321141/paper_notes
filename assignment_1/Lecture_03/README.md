@@ -50,6 +50,14 @@ target label是cleaned label如果輸入存在cleaned label；否則為cleaning 
 
 ### experience details
 
-為了平衡loss weight, loss = 0.1\*cleaning loss + classify loss 
+1.  為了平衡loss weight, loss = 0.1\*cleaning loss + classify loss。</br>
+2.  sample的比率，9:1 for noisy and cleaned label.</br>
 
-可以嘗試透過這種做法來實作gan
+### 與其他baseline的比較
+
+![alt text](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_03/img4.png "")
+
+### 補充
+
+可以嘗試透過這種做法來實作gan，含有大量hash tag的資料很容易搜集，與這篇work的情境很類似。</br>
+

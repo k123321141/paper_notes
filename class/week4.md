@@ -1,5 +1,5 @@
 term-by-document is inverted list</br>
-
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=sin(x^2)" style="border:none;">
 
 ## 目標
 

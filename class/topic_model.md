@@ -19,20 +19,17 @@ hidden latent sematic就是這些模型想要了解的。
 
 簡單的做法，利用term-by-document</br>
 row代表了每個文章中，特定詞彙出現的次數，而row-wise dot表示兩篇文章的相似度。</br>
-
-另一個相似的[Inverted List 倒排索引](#inverted_list)
-
 顯而易見的缺點是，不能好好處理同義字以及多義字。</br>
 
-
+>另一個相似的[Inverted List 倒排索引](#inverted_list)</br>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=X&space;\approx&space;U_t\Sigma_t&space;V_t\trps" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X&space;\approx&space;U_t\Sigma_t&space;V_t\trps" title="X \approx U_t\Sigma_t V_t\trps" /></a>
 
+[alt text][2]</br>
+繼續利用SVD分解</br>
+<a href="https://www.codecogs.com/eqnedit.php?latex=X&space;\approx&space;U_t\Sigma_t&space;V_t\trps" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X&space;\approx&space;U_t\Sigma_t&space;V_t\trps" title="X \approx U_t\Sigma_t V_t\trps" /></a></br>
+column為term，意義上N的rank代表資料中有幾種topic，剩下分解的矩陣數值則對應各種關係。</br>
 
-首先是對問題的觀察：每篇文章會出現的字的次數，與該文章的主題有關。</br>
-
-接下來是如何根據觀察，提出適合的模型。</br>![alt text](https://github.com/k123321141/paper_notes/blob/master/class/img2.png)</br>
-利用SVD分解，column為term，意義上N的rank代表資料中有幾種topic，剩下分解的矩陣數值則對應各種關係。</br>
 
 降維 要去除topic(term)的數量，可以考慮將係數較小的topic，設為零。</br>![alt text](https://github.com/k123321141/paper_notes/blob/master/class/img3.png)</br>
 缺點在於這個模型並不是很好的利用頻率，考慮的微小差異的column會影響到rank，以及難以描述機率來做generate的應用。</br>
@@ -80,3 +77,4 @@ https://zh.wikipedia.org/wiki/倒排索引</br>
 https://cs.stanford.edu/~ppasupat/a9online/1140.html</br>
 
 [1]: https://github.com/k123321141/paper_notes/blob/master/class/img6.png
+[2]: https://github.com/k123321141/paper_notes/blob/master/class/img2.png

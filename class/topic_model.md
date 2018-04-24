@@ -6,7 +6,7 @@
 ### 介紹
 
 歷史發展<圖片來源:https://blog.csdn.net/pipisorry/article/details/42560693></br>
-![alt text](https://github.com/k123321141/paper_notes/blob/master/class/img6.png)
+![Alt text][1]
 
 latent sematic是高階抽象的類別，各種機器學習的目標都在專注在將低階的資訊，轉換成可閱讀的高階資訊。</br>
 hidden latent sematic就是這些模型想要了解的。
@@ -17,7 +17,7 @@ hidden latent sematic就是這些模型想要了解的。
 ### LSA
 
 
-![alt text](https://github.com/k123321141/paper_notes/blob/master/class/img7.png)
+![alt text][2]
 
 可以用來做index, similarity comparation or even generation.
 
@@ -74,4 +74,5 @@ pLSA則設定適合大小的topic k，衡量效能。</br>
 
 
 ### 資料來源
-[1] : https://cs.stanford.edu/~ppasupat/a9online/1140.html
+[1]: https://github.com/k123321141/paper_notes/blob/master/class/img6.png
+[2]: https://cs.stanford.edu/~ppasupat/a9online/1140.html

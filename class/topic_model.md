@@ -18,28 +18,18 @@ hidden latent sematic就是這些模型想要了解的。
 透過觀察低階的資訊(word)，推估高階資訊(topic)。</br>
 
 簡單的做法，利用term-by-document</br>
-![alt text][2]</br>
 row代表了每個文章中，特定詞彙出現的次數，而row-wise dot表示兩篇文章的相似度。</br>
 
 另一個相似的[Inverted List 倒排索引](#inverted_list)
 
-
-
-
-
-挑出特定的term(word)就可以表示一個document。</br>
-配合使用交集就可以用來做retrieval。</br>
-顯而易見的缺點是，不能好好處理同義字以及多義字。</br>
-
-![alt text][2]
-
-
-
-簡單的做法，利用term-by-document(inverted list)，挑出特定的term(word)就可以表示一個document。</br>配合使用交集就可以用來做retrieval。</br>
 顯而易見的缺點是，不能好好處理同義字以及多義字。</br>
 
 
-首先是對問題的觀察：每篇文章會出現的字的頻率，與該文章的主題有關。</br>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=X&space;\approx&space;U_t\Sigma_t&space;V_t\trps" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X&space;\approx&space;U_t\Sigma_t&space;V_t\trps" title="X \approx U_t\Sigma_t V_t\trps" /></a>
+
+
+首先是對問題的觀察：每篇文章會出現的字的次數，與該文章的主題有關。</br>
 
 接下來是如何根據觀察，提出適合的模型。</br>![alt text](https://github.com/k123321141/paper_notes/blob/master/class/img2.png)</br>
 利用SVD分解，column為term，意義上N的rank代表資料中有幾種topic，剩下分解的矩陣數值則對應各種關係。</br>
@@ -90,4 +80,3 @@ https://zh.wikipedia.org/wiki/倒排索引</br>
 https://cs.stanford.edu/~ppasupat/a9online/1140.html</br>
 
 [1]: https://github.com/k123321141/paper_notes/blob/master/class/img6.png
-[2]: https://github.com/k123321141/paper_notes/blob/master/class/img7.png

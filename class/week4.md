@@ -3,6 +3,12 @@
 
 使用unsupervise learning找出在高維度空間的latent topic。
 
+### 介紹
+
+歷史發展<圖片來源:https://blog.csdn.net/pipisorry/article/details/42560693></br>
+![alt text](https://github.com/k123321141/paper_notes/blob/master/class/img6.png)
+
+
 ### 用途
 
 可以用來做index, similarity comparation or even generation.

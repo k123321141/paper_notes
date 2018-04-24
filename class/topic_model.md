@@ -21,7 +21,7 @@ hidden latent sematic就是這些模型想要了解的。
 ![alt text][2]</br>
 row代表了每個文章中，特定詞彙出現的次數，而row-wise dot表示兩篇文章的相似度。</br>
 
-另一個相似的[Inverted List2](#inverted_list)
+另一個相似的[Inverted List 倒排索引](#inverted_list)
 
 
 
@@ -73,7 +73,9 @@ pLSA則設定適合大小的topic k，衡量效能。</br>
 
 
 <h2 id="inverted_list">Inverted List</h2>
-簡單的概念https://zh.wikipedia.org/wiki/倒排索引
+簡單的概念，維基有很簡單易懂的範例。</br>
+https://zh.wikipedia.org/wiki/倒排索引</br>
+透過直接標註word出現在哪些文章，然後有新的文章D出現時，對D所有出現過的word，查詢每個word出現在哪些文章過，取交集。
 
 
 
@@ -85,6 +87,7 @@ pLSA則設定適合大小的topic k，衡量效能。</br>
 
 ### 資料來源
 歷史發展<圖片來源:https://blog.csdn.net/pipisorry/article/details/42560693></br>
+https://cs.stanford.edu/~ppasupat/a9online/1140.html</br>
 
 [1]: https://github.com/k123321141/paper_notes/blob/master/class/img6.png
-[2]: https://cs.stanford.edu/~ppasupat/a9online/1140.html
+[2]: https://github.com/k123321141/paper_notes/blob/master/class/img7.png

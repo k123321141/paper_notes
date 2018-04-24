@@ -17,7 +17,7 @@ hidden latent sematic就是這些模型想要了解的。
 最初觀察，每篇文章會出現的詞彙頻率並不相同，其一定程度上的代表了這篇文章的類別。</br>
 透過觀察低階的資訊(word)，推估高階資訊(topic)。</br>
 
-簡單的做法，利用term-by-document(inverted list)。</br>
+簡單的做法，利用term-by-document</br>
 ![alt text][2]</br>
 row代表了每個文章中，特定詞彙出現的次數，而row-wise dot表示兩篇文章的相似度。</br>
 

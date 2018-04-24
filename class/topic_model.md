@@ -25,9 +25,11 @@ row代表了每個文章中，特定詞彙出現的次數，而row-wise dot表�
 
 
 利用SVD分解</br>
+
 ![Alt text][2]</br>
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=X&space;\approx&space;U_t\Sigma_t&space;V_t\trps" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X&space;\approx&space;U_t\Sigma_t&space;V_t\trps" title="X \approx U_t\Sigma_t V_t\trps" /></a></br>
+
 V column為各個word對應的topic，
 
 column為term，意義上N的rank代表資料中有幾種topic，剩下分解的矩陣數值則對應各種關係。</br>

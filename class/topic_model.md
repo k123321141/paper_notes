@@ -5,7 +5,6 @@
 
 ### 介紹
 
-歷史發展<圖片來源:https://blog.csdn.net/pipisorry/article/details/42560693></br>
 ![Alt text][1]
 
 latent sematic是高階抽象的類別，各種機器學習的目標都在專注在將低階的資訊，轉換成可閱讀的高階資訊。</br>
@@ -13,22 +12,32 @@ hidden latent sematic就是這些模型想要了解的。
 透過為資料分類topic，像是Word2Vec、skip-thought模型，透過unsupervised learning理解個低階資訊之間的關係。(對比於ont-hot encoding)
 
 
-
 ### LSA
 
+最初觀察，每篇文章會出現的詞彙頻率並不相同，其一定程度上的代表了這篇文章的類別。</br>
+透過觀察低階的資訊(word)，推估高階資訊(topic)。</br>
+
+簡單的做法，利用term-by-document(inverted list)。</br>
+![alt text][2]</br>
+row代表了每個文章中，特定詞彙出現的次數，而row-wise dot表示兩篇文章的相似度。</br>
+
+另一個相似的[Inverted List2](#inverted_list)
+
+
+
+
+
+挑出特定的term(word)就可以表示一個document。</br>
+配合使用交集就可以用來做retrieval。</br>
+顯而易見的缺點是，不能好好處理同義字以及多義字。</br>
 
 ![alt text][2]
 
-可以用來做index, similarity comparation or even generation.
 
-
-
-### Text latent
 
 簡單的做法，利用term-by-document(inverted list)，挑出特定的term(word)就可以表示一個document。</br>配合使用交集就可以用來做retrieval。</br>
 顯而易見的缺點是，不能好好處理同義字以及多義字。</br>
 
-#### LSA
 
 首先是對問題的觀察：每篇文章會出現的字的頻率，與該文章的主題有關。</br>
 
@@ -63,7 +72,8 @@ pLSA則設定適合大小的topic k，衡量效能。</br>
 
 
 
-
+<h2 id="inverted_list">Inverted List</h2>
+簡單的概念https://zh.wikipedia.org/wiki/倒排索引
 
 
 
@@ -74,5 +84,7 @@ pLSA則設定適合大小的topic k，衡量效能。</br>
 
 
 ### 資料來源
+歷史發展<圖片來源:https://blog.csdn.net/pipisorry/article/details/42560693></br>
+
 [1]: https://github.com/k123321141/paper_notes/blob/master/class/img6.png
 [2]: https://cs.stanford.edu/~ppasupat/a9online/1140.html

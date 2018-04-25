@@ -30,13 +30,22 @@ row代表了每個文章中，特定詞彙出現的次數，而row-wise dot表�
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=X&space;\approx&space;U_t\Sigma_t&space;V_t\trps" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X&space;\approx&space;U_t\Sigma_t&space;V_t\trps" title="X \approx U_t\Sigma_t V_t\trps" /></a></br>
 
-V column為各個word對應的topic，
 
-column為term，意義上N的rank代表資料中有幾種topic，剩下分解的矩陣數值則對應各種關係。</br>
+意義上N的rank代表資料中有幾種topic，剩下分解的矩陣數值則對應各種關係。</br>
+U column 為各個doc對應的topic的程度，V column為各個word對應的topic的程度，奇異值則代表topic間的比重。</br>
+而一篇文章則是被分解：
+1. word跟每個topic的係數，V</br>
+2. 每個topic在資料間的比重，奇異值</br>
+3. doc跟每個topic的係數轉換，U</br>
 
+如此一來就可以透過unsupervised learning理解word之間的關係，V表示word在各topic的係數，內積則能表示相似度。</br>
+也可搜尋文章的相似度，這次則是利用U。</br>
 
-降維 要去除topic(term)的數量，可以考慮將係數較小的topic，設為零。</br>![alt text](https://github.com/k123321141/paper_notes/blob/master/class/img3.png)</br>
-缺點在於這個模型並不是很好的利用頻率，考慮的微小差異的column會影響到rank，以及難以描述機率來做generate的應用。</br>
+降維</br>
+奇異值表示了topic的比重程度，可以考慮將係數較小的topic，設為零。</br>
+![alt text](https://github.com/k123321141/paper_notes/blob/master/class/img3.png)</br>
+缺點在於這個模型並不是很好的利用頻率，考慮的微小差異的column會影響到rank，也就是說雜訊會影響SVD找到topic的能力，所以還原的差異很大。</br>
+以及難以描述機率來做generate的應用。</br>
 
 #### Probabilistic Topic Models
 

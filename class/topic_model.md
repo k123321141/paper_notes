@@ -38,7 +38,10 @@ U column 為各個doc對應的topic的程度，V column為各個word對應的top
 2. 每個topic在資料間的比重，奇異值</br>
 3. doc跟每個topic的係數轉換，U</br>
 
-如此一來就可以透過unsupervised learning理解word之間的關係，V表示word在各topic的係數，內積則能表示相似度。</br>
+如此一來就可以透過unsupervised learning理解word之間的關係。</br>
+
+> V表示word在各topic的係數，內積則能表示word在topic間的相似度。</br>
+> U表示doc在各topic的係數，內積則能表示文章在topic的相似度。</br>
 也可搜尋文章的相似度，這次則是利用U。</br>
 
 降維</br>

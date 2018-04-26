@@ -117,7 +117,7 @@ https://zh.wikipedia.org/wiki/倒排索引</br>
 
 
 ### 資料來源
-https://blog.csdn.net/pipisorry/article/details/42560693></br>
+https://blog.csdn.net/pipisorry/article/details/42560693</br>
 https://cs.stanford.edu/~ppasupat/a9online/1140.html</br>
 https://en.wikipedia.org/wiki/Dirichlet-multinomial_distribution</br>
 http://www.inf.ed.ac.uk/teaching/courses/tnlp/2016/Merce.pdf</br>

@@ -92,8 +92,16 @@ summation 機率合為1的關係，P(w|d)會落在各basis組成的simplex上。
 LSA利用eigen value係數做降維，設定需要的topic量。</br>
 pLSA則設定適合大小的topic k，衡量效能。</br>
 
+### LDA 待補
 
-#### 補充資料
+![alt-text][10]</br>
+相對於pLSA每個文章只用一個主題去描述組成文章d的w關係。</br>
+LDA多了一個選擇P(w|c)的方式，描述了\theta是組成doc的topic成分，P(c|d)。</br>
+而選擇doc中word的時候，並沒有單純使用P(w|c)，加入了一個我還不清楚概念Dirichlet-multinomial distributio</br>
+透過讓doc由多種topic組合，選用word的方式更複雜了點。</br>
+
+
+### 補充資料
 
 <h2 id="inverted_list">Inverted List</h2>
 簡單的概念，維基有很簡單易懂的範例。</br>
@@ -109,8 +117,11 @@ https://zh.wikipedia.org/wiki/倒排索引</br>
 
 
 ### 資料來源
-歷史發展<圖片來源:https://blog.csdn.net/pipisorry/article/details/42560693></br>
+https://blog.csdn.net/pipisorry/article/details/42560693></br>
 https://cs.stanford.edu/~ppasupat/a9online/1140.html</br>
+https://en.wikipedia.org/wiki/Dirichlet-multinomial_distribution</br>
+http://www.inf.ed.ac.uk/teaching/courses/tnlp/2016/Merce.pdf</br>
+https://blog.csdn.net/lmm6895071/article/details/74999129</br>
 
 [1]: https://github.com/k123321141/paper_notes/blob/master/class/img6.png
 [2]: https://github.com/k123321141/paper_notes/blob/master/class/img2.png
@@ -119,3 +130,4 @@ https://cs.stanford.edu/~ppasupat/a9online/1140.html</br>
 [7]: https://github.com/k123321141/paper_notes/blob/master/class/img7.png
 [8]: https://github.com/k123321141/paper_notes/blob/master/class/img8.png
 [9]: https://github.com/k123321141/paper_notes/blob/master/class/img9.png
+[10]: https://github.com/k123321141/paper_notes/blob/master/class/img10.png

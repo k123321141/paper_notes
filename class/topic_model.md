@@ -50,10 +50,25 @@ U column 為各個doc對應的topic的程度，V column為各個word對應的top
 缺點在於這個模型並不是很好的利用頻率，考慮的微小差異的column會影響到rank，也就是說雜訊會影響SVD找到topic的能力，所以還原的差異很大。</br>
 以及難以描述機率來做generate的應用。</br>
 
-#### Probabilistic Topic Models
+#### Probabilistic Topic Models, pLSA
 
 與LSA的觀察一樣，既然與字頻率與topic有關，那麼如果使用機率模型，則模型的產出應該要與觀察到的資料有max-likehood性質。</br>
 使用貝氏網路來描述一個模型。</br>
+各個topic出現每個字的機率不同。</br>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\\z_i&space;\in&space;Z,for&space;\&space;1\leq&space;i\leq&space;N&space;\\&space;d_i&space;\in&space;D,for&space;\&space;1\leq&space;i\leq&space;M&space;\\&space;w_i&space;\in&space;V,V&space;=&space;vocabulary" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\z_i&space;\in&space;Z,for&space;\&space;1\leq&space;i\leq&space;N&space;\\&space;d_i&space;\in&space;D,for&space;\&space;1\leq&space;i\leq&space;M&space;\\&space;w_i&space;\in&space;V,V&space;=&space;vocabulary" title="\\z_i \in Z,for \ 1\leq i\leq N \\ d_i \in D,for \ 1\leq i\leq M \\ w_i \in V,V = vocabulary" /></a></br>
+pLSA假設每篇文章只有一個topic。</br>
+pLSA模型產生文章的流程：</br>
+1. 為了產生M篇文章，擲骰子選出M個topic，每篇文章都有對應的topic, z</br>
+2. 利用poisson distribution或是其他分佈選出文章的長度, N</br>
+3. 根據選出的z,擲N次骰子選出w</br>
+
+有了模型產生的流程就可以計算maximum likelihood，可是這種式子不好計算。</br>
+透過符合某些統計特性，可以相當程度地表示likelihood，例如P(d,w)，表示P(d and w)。</br>
+pLSA與LSA相同，希望透過unsupervised learning計算word與topic間的相似度，以及doc在topic間的相似度。</br>
+假設d與z獨立，則P(w|d) = 
+
+
+
 
 #### pLSA
 

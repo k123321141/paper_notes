@@ -60,8 +60,8 @@ pLSA假設每篇文章只有一個topic。</br>
 pLSA模型產生文章的流程：</br>
 
 >1. 為了產生M篇文章，擲骰子選出M個topic，每篇文章都有對應的topic, z</br>
-2. 利用poisson distribution或是其他分佈選出文章的長度, N</br>
-3. 根據選出的z,擲N次骰子選出w</br>
+>2. 利用poisson distribution或是其他分佈選出文章的長度, N</br>
+>3. 根據選出的z,擲N次骰子選出w</br>
 
 有了模型產生的流程就可以計算maximum likelihood，可是這種式子不好計算。</br>
 透過符合某些統計特性，可以相當程度地表示likelihood，例如P(d,w)，表示P(d and w)。</br>

@@ -50,7 +50,7 @@ U column 為各個doc對應的topic的程度，V column為各個word對應的top
 缺點在於這個模型並不是很好的利用頻率，考慮的微小差異的column會影響到rank，也就是說雜訊會影響SVD找到topic的能力，所以還原的差異很大。</br>
 以及難以描述機率來做generate的應用。</br>
 
-#### Probabilistic Topic Models, pLSA
+### Probabilistic Topic Models, pLSA
 
 與LSA的觀察一樣，既然與字頻率與topic有關，那麼如果使用機率模型，則模型的產出應該要與觀察到的資料有max-likehood性質。</br>
 各個topic出現每個字的機率不同。</br>
@@ -61,6 +61,7 @@ pLSA模型產生文章的流程：</br>
 >1. 為了產生M篇文章，擲骰子選出M個topic，每篇文章都有對應的topic, z</br>
 >2. 利用poisson distribution或是其他分佈選出文章的長度, N</br>
 >3. 根據選出的z,擲N次骰子選出w</br>
+![alt text][4]</br>
 
 有了模型產生的流程就可以計算maximum likelihood，可是這種式子不好計算。</br>
 透過符合某些統計特性，可以相當程度地表示likelihood，例如P(d,w)，表示P(d and w)。</br>
@@ -69,6 +70,7 @@ pLSA與LSA相同，希望透過unsupervised learning計算word與topic間的相�
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(w|d)&space;=&space;\sum^Z&space;P(w&space;|&space;z_i)&space;P(z_i&space;|&space;d)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(w|d)&space;=&space;\sum^Z&space;P(w&space;|&space;z_i)&space;P(z_i&space;|&space;d)" title="P(w|d) = \sum^Z P(w | z_i) P(z_i | d)" /></a></br>
 P(d,w) = P(d)P(w|d), 由於P(d)是未知的項，利用抽樣的訓練資料表示P(d)並且利用KL-divergence可以衡量訓練資料與模型的差異。</br>
 Q(d,w)表示訓練資料裡w出現在d的頻率，藉此代表P(d,w)</br>
+![alt text][5]</br>
 ![alt-text][7]</br>
 
 最終objective function就會是兩個矩陣乘績，各項次的KL差異。</br>
@@ -85,29 +87,13 @@ summation 機率合為1的關係，P(w|d)會落在各basis組成的simplex上。
 ![alt-text][9]</br>
 
 
-
-
-
-
-#### pLSA
-
-![alt text](https://github.com/k123321141/paper_notes/blob/master/class/img4.png)</br>
-document每一個字都會照圖中選出，d種topic，N種word，M個document。</br>
-
-![alt text](https://github.com/k123321141/paper_notes/blob/master/class/img5.png)</br>
-既然summation P(z|d) = 1 , 則P(w|d)相當於以P(w|z)為基底，且係數總和為1的線性組合。</br>
-以上條件讓P(w|d)落在P(w|z)基底組成的subspace，如果共有N種word，則P(w|d)會是維度為N-1的subspace，稱為simplex。</br>
-
-那麼最後使用Minimize KL divergence作為objective function。</br>
-演算法請參考EM algorithm解法。</br>
-
 #### LSA 與 pLSA 的比較
 
 LSA利用eigen value係數做降維，設定需要的topic量。</br>
 pLSA則設定適合大小的topic k，衡量效能。</br>
 
 
-
+#### 補充資料
 
 <h2 id="inverted_list">Inverted List</h2>
 簡單的概念，維基有很簡單易懂的範例。</br>
@@ -128,6 +114,8 @@ https://cs.stanford.edu/~ppasupat/a9online/1140.html</br>
 
 [1]: https://github.com/k123321141/paper_notes/blob/master/class/img6.png
 [2]: https://github.com/k123321141/paper_notes/blob/master/class/img2.png
+[4]: https://github.com/k123321141/paper_notes/blob/master/class/img4.png
+[5]: https://github.com/k123321141/paper_notes/blob/master/class/img5.png
 [7]: https://github.com/k123321141/paper_notes/blob/master/class/img7.png
 [8]: https://github.com/k123321141/paper_notes/blob/master/class/img8.png
 [9]: https://github.com/k123321141/paper_notes/blob/master/class/img9.png

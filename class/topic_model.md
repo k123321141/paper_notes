@@ -58,7 +58,8 @@ U column 為各個doc對應的topic的程度，V column為各個word對應的top
 <a href="https://www.codecogs.com/eqnedit.php?latex=\\z_i&space;\in&space;Z,for&space;\&space;1\leq&space;i\leq&space;N&space;\\&space;d_i&space;\in&space;D,for&space;\&space;1\leq&space;i\leq&space;M&space;\\&space;w_i&space;\in&space;V,V&space;=&space;vocabulary" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\z_i&space;\in&space;Z,for&space;\&space;1\leq&space;i\leq&space;N&space;\\&space;d_i&space;\in&space;D,for&space;\&space;1\leq&space;i\leq&space;M&space;\\&space;w_i&space;\in&space;V,V&space;=&space;vocabulary" title="\\z_i \in Z,for \ 1\leq i\leq N \\ d_i \in D,for \ 1\leq i\leq M \\ w_i \in V,V = vocabulary" /></a></br>
 pLSA假設每篇文章只有一個topic。</br>
 pLSA模型產生文章的流程：</br>
-1. 為了產生M篇文章，擲骰子選出M個topic，每篇文章都有對應的topic, z</br>
+
+>1. 為了產生M篇文章，擲骰子選出M個topic，每篇文章都有對應的topic, z</br>
 2. 利用poisson distribution或是其他分佈選出文章的長度, N</br>
 3. 根據選出的z,擲N次骰子選出w</br>
 

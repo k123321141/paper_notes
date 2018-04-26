@@ -53,7 +53,6 @@ U column 為各個doc對應的topic的程度，V column為各個word對應的top
 #### Probabilistic Topic Models, pLSA
 
 與LSA的觀察一樣，既然與字頻率與topic有關，那麼如果使用機率模型，則模型的產出應該要與觀察到的資料有max-likehood性質。</br>
-使用貝氏網路來描述一個模型。</br>
 各個topic出現每個字的機率不同。</br>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\\z_i&space;\in&space;Z,for&space;\&space;1\leq&space;i\leq&space;N&space;\\&space;d_i&space;\in&space;D,for&space;\&space;1\leq&space;i\leq&space;M&space;\\&space;w_i&space;\in&space;V,V&space;=&space;vocabulary" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\z_i&space;\in&space;Z,for&space;\&space;1\leq&space;i\leq&space;N&space;\\&space;d_i&space;\in&space;D,for&space;\&space;1\leq&space;i\leq&space;M&space;\\&space;w_i&space;\in&space;V,V&space;=&space;vocabulary" title="\\z_i \in Z,for \ 1\leq i\leq N \\ d_i \in D,for \ 1\leq i\leq M \\ w_i \in V,V = vocabulary" /></a></br>
 pLSA假設每篇文章只有一個topic。</br>
@@ -66,7 +65,26 @@ pLSA模型產生文章的流程：</br>
 有了模型產生的流程就可以計算maximum likelihood，可是這種式子不好計算。</br>
 透過符合某些統計特性，可以相當程度地表示likelihood，例如P(d,w)，表示P(d and w)。</br>
 pLSA與LSA相同，希望透過unsupervised learning計算word與topic間的相似度，以及doc在topic間的相似度。</br>
-假設d與z獨立，則P(w|d) = 
+假設d與z獨立:</br>
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(w|d)&space;=&space;\sum^Z&space;P(w&space;|&space;z_i)&space;P(z_i&space;|&space;d)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(w|d)&space;=&space;\sum^Z&space;P(w&space;|&space;z_i)&space;P(z_i&space;|&space;d)" title="P(w|d) = \sum^Z P(w | z_i) P(z_i | d)" /></a></br>
+P(d,w) = P(d)P(w|d), 由於P(d)是未知的項，利用抽樣的訓練資料表示P(d)並且利用KL-divergence可以衡量訓練資料與模型的差異。</br>
+Q(d,w)表示訓練資料裡w出現在d的頻率，藉此代表P(d,w)</br>
+![alt-text][7]</br>
+
+最終objective function就會是兩個矩陣乘績，各項次的KL差異。</br>
+![alt-text][8]</br>
+利用EM algorithm 可以解上述式子。</br>
+
+如此就可以利用P(w|z)以及P(z|d)表示相似度。</br>
+
+基於</br>
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(w|d)&space;=&space;\sum^Z&space;P(w&space;|&space;z_i)&space;P(z_i&space;|&space;d)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(w|d)&space;=&space;\sum^Z&space;P(w&space;|&space;z_i)&space;P(z_i&space;|&space;d)" title="P(w|d) = \sum^Z P(w | z_i) P(z_i | d)" /></a></br>
+其中的P(w|z)相當於topic空間中的basis，是維度為K-1的subspace，稱為simplex。<\br>
+summation 機率合為1的關係，P(w|d)會落在各basis組成的simplex上。</br>
+而KL-divergence則描述了實際上P(w|d)與complex的residual。(可以選用其他objective function)</br>
+![alt-text][9]</br>
+
+
 
 
 
@@ -110,3 +128,6 @@ https://cs.stanford.edu/~ppasupat/a9online/1140.html</br>
 
 [1]: https://github.com/k123321141/paper_notes/blob/master/class/img6.png
 [2]: https://github.com/k123321141/paper_notes/blob/master/class/img2.png
+[7]: https://github.com/k123321141/paper_notes/blob/master/class/img7.png
+[8]: https://github.com/k123321141/paper_notes/blob/master/class/img8.png
+[9]: https://github.com/k123321141/paper_notes/blob/master/class/img9.png

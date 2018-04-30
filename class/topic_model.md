@@ -1,4 +1,9 @@
 
+### 逮捕比較
+bag-of-word model</br>
+https://blog.csdn.net/wsj998689aa/article/details/47089153
+
+
 ## 目標
 
 使用unsupervise learning找出在高維度空間的latent topic。

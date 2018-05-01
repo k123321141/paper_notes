@@ -30,6 +30,18 @@ ASC強迫不同attribute的image必須使用不同的column去組成原本的ima
 而多個attribute的形式則一樣，每一個attribute都會有兩組column。</br>
 假設dictionary共有k個column，而有a組attributes，則共會分成k/2a組column，而每一組mask則寫成[1,1,..,∞,∞,1,1,...,∞,∞]^T的形式。</br>
 
+### 實作
+
+論文中利用相關演算法得出human attribute scores</br>
+然後利用臉部特徵演算法定位出人臉位置，根據平均臉部大小取出人臉。</br>
+將每個人臉特徵從人臉中切出五項人臉特徵，雙眼、鼻子、兩邊嘴角，各切成7 x 5 方格，總共有175個方格。</br>
+對每個方格利用LBP取出59維的特徵，接下來用這個共175x59維的特徵，根據每做[ASC](#ASC)。</br>
+
+
+<h2 id="ASC">Attribute-enhanced sparse coding</h2>
+首先根據[Lecture 6 - Online dictionary learning for sparse coding](https://github.com/k123321141/paper_notes/blob/master/assignment_1/Lecture_06/Online%20dictionary%20learning%20for%20sparse%20coding.md)</br>
+可以學出D,a</br>
+
 
 
 [1]: https://github.com/k123321141/paper_notes/blob/master/class/img1.png

@@ -1,0 +1,8 @@
+利用global pooling 跟cam 可以使用class annotation的資料 省去object label的資料。
+GAP is just like a regularizer for network
+but it has to be the same number to output class.
+cam use linear weights to generate different number of characteristic from class number.
+
+
+
+加入針對眼鏡的regulaizer

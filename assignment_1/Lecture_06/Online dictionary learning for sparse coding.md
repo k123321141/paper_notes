@@ -2,7 +2,12 @@
 
 ### 要解決的問題
 
-### sparse vs dense
+sparse coding在許多領域有很好的效果，諸如訊號重建、訊號處理等等。</br>
+這篇論文提出的方法為stochastic，online learning，可以處理large scale以及不輸於batch learning的方式。</br>
+適合用於現行large scale的圖片線上應用，像是大量無標註圖片資料(flickr, facebook)，就需要online learning。</br>
+
+
+### why sparse ? sparse vs dense
 
 首先根據http://www.scholarpedia.org/article/Sparse_coding</br>
 哺乳類動物的大腦由許多神經組成，定義一下density，假定大腦訊號由N組binary神經組成(which can be either active or inactive)</br>
@@ -13,5 +18,7 @@
 在深度學習中，auto en-decoder裡面的bottle neck相當於輸出有效的dense code，與sparse coding很相似，都是用一組基底去近似原本的訊號，希望能夠無損轉換，提供另一組更有效率的表示法。</br>
 但是在神經系統當中，每個神經元的輸出是binary的，所以輸出訊號必須為{0,1}^N，但是深度學習中的dense code精神像是近似於找出線性相依的部分並剔除，一方面與原本訊號中的有效基底有關(rank)，所以模型的能力幾乎被資料所主宰，也就是overfitting的隱憂。</br>
 而spase coding在於模仿神經系統中，激發訊號區佔總神經元的低比例，透過限制dense code的能力，使其近似於神經訊號行為，雖然不是最有效的基底表示，但是可以做許多用途，像是可以期待generalize的能力，以及比較容易理解的相似度運算(vector dot)。</br>
+
+
 
 

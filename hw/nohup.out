@@ -1,0 +1,26 @@
+[I 18:09:29.118 NotebookApp] Writing notebook server cookie secret to /run/user/1000/jupyter/notebook_cookie_secret
+[I 18:09:29.281 NotebookApp] Serving notebooks from local directory: /home/k123/git_repo/paper_notes/hw
+[I 18:09:29.281 NotebookApp] 0 active kernels
+[I 18:09:29.281 NotebookApp] The Jupyter Notebook is running at:
+[I 18:09:29.281 NotebookApp] https://[all ip addresses on your system]:5000/
+[I 18:09:29.281 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 18:09:46.390 NotebookApp] 302 GET / (111.241.46.51) 0.93ms
+[I 18:09:46.448 NotebookApp] 302 GET /tree? (111.241.46.51) 0.53ms
+[W 18:09:46.448 NotebookApp] Forbidden
+[W 18:09:46.448 NotebookApp] 403 GET /api/sessions?_=1525092431816 (111.241.46.51) 0.47ms referer=https://114.34.117.184:5000/tree?
+[W 18:09:46.534 NotebookApp] Forbidden
+[W 18:09:46.535 NotebookApp] 403 GET /api/terminals?_=1525092431817 (111.241.46.51) 0.76ms referer=https://114.34.117.184:5000/tree?
+[W 18:09:46.536 NotebookApp] Forbidden
+[W 18:09:46.537 NotebookApp] 403 GET /api/kernelspecs (111.241.46.51) 0.75ms referer=https://114.34.117.184:5000/tree?
+[W 18:09:46.538 NotebookApp] Forbidden
+[W 18:09:46.539 NotebookApp] 403 GET /api/config/common?_=1525092431814 (111.241.46.51) 0.75ms referer=https://114.34.117.184:5000/tree?
+[W 18:09:46.539 NotebookApp] Forbidden
+[W 18:09:46.540 NotebookApp] 403 GET /api/terminals?_=1525092431815 (111.241.46.51) 0.70ms referer=https://114.34.117.184:5000/tree?
+[W 18:09:46.560 NotebookApp] Forbidden
+[W 18:09:46.561 NotebookApp] 403 GET /api/contents?type=directory&_=1525092431818 (111.241.46.51) 0.67ms referer=https://114.34.117.184:5000/tree?
+[W 18:09:46.562 NotebookApp] Forbidden
+[W 18:09:46.562 NotebookApp] 403 GET /api/config/tree?_=1525092431813 (111.241.46.51) 0.64ms referer=https://114.34.117.184:5000/tree?
+[I 18:09:47.842 NotebookApp] 302 POST /login?next=%2Ftree%3F (111.241.46.51) 2.70ms
+[I 18:09:52.867 NotebookApp] Creating new notebook in 
+[I 18:09:53.756 NotebookApp] Kernel started: 199146fc-776e-4859-b1d4-5f2e2bc26b81
+[I 18:09:54.096 NotebookApp] Adapting to protocol v5.1 for kernel 199146fc-776e-4859-b1d4-5f2e2bc26b81

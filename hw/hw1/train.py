@@ -1,5 +1,5 @@
 import pickle
-with open('./hw1_data/data.pickle','r') as f:
+with open('./hw1_data/data.pickle','rb') as f:
     data = pickle.load(f)
 #print data.keys()
 #[u'database_name', u'query_identity', u'database_identity', u'query_name', u'database_feature', u'query_feature']
@@ -13,7 +13,6 @@ with open('./hw1_data/lfw_attributes.txt') as f:
 
 import spams
 import numpy as np
-print src.shape
 num = src.shape[0]
 '''
 # X = src.reshape([num, 80,59])
@@ -27,23 +26,21 @@ X = np.swapaxes(X,axis1=1,axis2=2)
 lambda1 = [10**i for i in range(-6,-3,1)]
 K = range(100,3200,400)
 param = { 'K' : 1600, # learns a dictionary with 100 elements
-          'lambda1' : 10**-3, 'numThreads' : 4, 'mode':2,
+          'lambda1' : 10**-3, 'numThreads' : -1, 'mode':2,
           'iter' : -800}
     
-print X.shape
 
 
 D_list = []
 pathces_num = X.shape[1]
 for i in range(pathces_num):
-    print i
     x = np.asfortranarray(X[:,i,:])
     D = spams.trainDL(x,**param)
     D_list.append(D)
-out_file = 'dict3.npy'
+out_file = 'dict4.npy'
 with open(out_file,'wb') as f:
     np.save(f,D_list)
-print 'Done'
+print('Done')
 with open(out_file,'rb') as f:
     data = np.load(f)
-print data.shape
+print(data.shape)

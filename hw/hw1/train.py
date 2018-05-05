@@ -27,8 +27,8 @@ X = np.swapaxes(X,axis1=1,axis2=2)
 lambda1 = [10**i for i in range(-6,-3,1)]
 K = range(100,3200,400)
 param = { 'K' : 1600, # learns a dictionary with 100 elements
-          'lambda1' : 10**-2, 'numThreads' : 4, 'mode':2,
-          'iter' : -60}
+          'lambda1' : 10**-3, 'numThreads' : 4, 'mode':2,
+          'iter' : -800}
     
 print X.shape
 
@@ -40,9 +40,10 @@ for i in range(pathces_num):
     x = np.asfortranarray(X[:,i,:])
     D = spams.trainDL(x,**param)
     D_list.append(D)
-with open('dict2.npy','wb') as f:
+out_file = 'dict3.npy'
+with open(out_file,'wb') as f:
     np.save(f,D_list)
 print 'Done'
-with open('dict2.npy','rb') as f:
+with open(out_file,'rb') as f:
     data = np.load(f)
 print data.shape

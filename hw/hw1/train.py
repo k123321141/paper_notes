@@ -1,7 +1,7 @@
 import pickle
 import spams
 import numpy as np
-with open('./hw1_data/data.pickle','rb') as f:
+with open('./hw1_data/LFW_DATA.pickle','rb') as f:
     data = pickle.load(f)
 #print data.keys()
 #[u'database_name', u'query_identity', u'database_identity', u'query_name', u'database_feature', u'query_feature']
@@ -11,8 +11,13 @@ src = data['database_feature']
 # read attributes
 with open('./hw1_data/lfw_attributes.txt') as f:
     ls = f.readlines()
+"""
+default target attribute : White
+Inputs: 
+    src, data from hw1_data.pickle which contain LBP for every imgae in LFW.
+"""
 
-def train_SC(src, K=400, lambda1=0.01, iter_=-10,out_file='dict.npy'):
+def train_SC(src, K=400, lambda1=0.01, iter_=-10,out_file='./dict.npy'):
 
     num = src.shape[0]
     X = src.reshape([num, 80,59])
@@ -40,4 +45,4 @@ def train_SC(src, K=400, lambda1=0.01, iter_=-10,out_file='dict.npy'):
     print(data.shape)
 
 if __name__ == '__main__':
-    train_SC(src)
+    train_SC(src, K=800)

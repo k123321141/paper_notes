@@ -8245,3 +8245,3466 @@ Iteration: 504
 [I 05:03:42.523 NotebookApp] Saving file at /hw1/Codes.ipynb
 [I 05:04:12.171 NotebookApp] Saving file at /hw1/Codes.ipynb
 [I 05:04:21.408 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:10:28.137 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:10:32.994 NotebookApp] Saving file at /hw1/Codes.ipynb
+[W 05:11:37.574 NotebookApp] SSL Error on 10 ('89.248.167.131', 34385): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:600)
+[I 05:15:17.015 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:17:17.014 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:18:17.539 NotebookApp] Kernel interrupted: d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:19:16.953 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:20:03.302 NotebookApp] Kernel interrupted: d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:20:12.736 NotebookApp] Kernel interrupted: d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:21:17.072 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:21:26.680 NotebookApp] Saving file at /hw1/l2_distance.py
+[I 05:21:53.946 NotebookApp] Kernel interrupted: d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:22:15.476 NotebookApp] Kernel interrupted: d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:23:17.029 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:25:17.049 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:29:15.048 NotebookApp] Saving file at /hw1/sparse_coding.py
+[I 05:29:59.283 NotebookApp] Saving file at /hw1/calculate_map.py
+[I 05:30:14.341 NotebookApp] Kernel interrupted: d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:30:42.937 NotebookApp] Saving file at /hw1/sparse_coding.py
+[I 05:30:43.618 NotebookApp] Saving file at /hw1/sparse_coding.py
+[I 05:30:48.917 NotebookApp] Starting buffering for d962d273-c608-4e98-b3ec-f2f9d058af01:9c1815fc46594ec186332c2caac93903
+[I 05:30:49.448 NotebookApp] Kernel restarted: d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:30:52.740 NotebookApp] Adapting to protocol v5.1 for kernel d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:30:52.743 NotebookApp] Restoring connection for d962d273-c608-4e98-b3ec-f2f9d058af01:9c1815fc46594ec186332c2caac93903
+[I 05:30:52.743 NotebookApp] Replaying 6 buffered messages
+[I 05:31:09.211 NotebookApp] Saving file at /hw1/sparse_coding.py
+[I 05:31:17.090 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:31:52.376 NotebookApp] Saving file at /hw1/sparse_coding.py
+[I 05:32:20.857 NotebookApp] Saving file at /hw1/sparse_coding.py
+[I 05:32:37.301 NotebookApp] Starting buffering for d962d273-c608-4e98-b3ec-f2f9d058af01:9c1815fc46594ec186332c2caac93903
+[I 05:32:37.720 NotebookApp] Kernel restarted: d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:32:40.320 NotebookApp] Adapting to protocol v5.1 for kernel d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:32:40.322 NotebookApp] Restoring connection for d962d273-c608-4e98-b3ec-f2f9d058af01:9c1815fc46594ec186332c2caac93903
+[I 05:32:40.323 NotebookApp] Replaying 6 buffered messages
+[I 05:32:56.867 NotebookApp] Saving file at /hw1/sparse_coding.py
+[I 05:33:04.814 NotebookApp] Starting buffering for d962d273-c608-4e98-b3ec-f2f9d058af01:9c1815fc46594ec186332c2caac93903
+[I 05:33:05.346 NotebookApp] Kernel restarted: d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:33:06.930 NotebookApp] Adapting to protocol v5.1 for kernel d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:33:06.932 NotebookApp] Restoring connection for d962d273-c608-4e98-b3ec-f2f9d058af01:9c1815fc46594ec186332c2caac93903
+[I 05:33:06.933 NotebookApp] Replaying 6 buffered messages
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01196
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.03047
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.944115
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.980533
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.944951
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.1429
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.04463
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+[I 05:33:17.110 NotebookApp] Saving file at /hw1/Codes.ipynb
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.989507
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.947627
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.10001
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.98019
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.02686
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.910319
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.10099
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.04706
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.943438
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.883419
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.09425
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.0702
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.954806
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.953518
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.1264
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.02823
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.997347
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.930192
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.10904
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00048
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.986635
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.990277
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.06358
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.950245
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.996934
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.05656
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.08894
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00948
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.02162
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.903391
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.919276
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.757524
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.966267
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.918165
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.940146
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.74699
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.954703
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.04853
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.07309
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01755
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01111
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00286
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.06885
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01141
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.975227
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.995513
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.05535
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.976567
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.09952
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.0902
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.893066
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.99588
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.09007
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+[I 05:34:12.113 NotebookApp] Saving file at /hw1/sparse_coding.py
+Iteration: 2
+Time elapsed : 1.09146
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.942761
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.983609
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.998726
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.06651
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.967336
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.987031
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.995508
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.07176
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.900214
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.0271
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.03926
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.999313
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.11201
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.961108
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.11646
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.978958
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.06737
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.99835
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01636
+[I 05:35:17.193 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:35:39.941 NotebookApp] Saving file at /hw1/sparse_coding.py
+[I 05:35:44.822 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:35:50.625 NotebookApp] Starting buffering for d962d273-c608-4e98-b3ec-f2f9d058af01:9c1815fc46594ec186332c2caac93903
+[I 05:35:51.164 NotebookApp] Kernel restarted: d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:35:53.535 NotebookApp] Adapting to protocol v5.1 for kernel d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:35:53.537 NotebookApp] Restoring connection for d962d273-c608-4e98-b3ec-f2f9d058af01:9c1815fc46594ec186332c2caac93903
+[I 05:35:53.538 NotebookApp] Replaying 6 buffered messages
+[I 05:36:30.934 NotebookApp] Saving file at /hw1/sparse_coding.py
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.02953
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.02962
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.944278
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.983241
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.942767
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.15174
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00982
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.985369
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.956771
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.12051
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.9916
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.04048
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.906808
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.08176
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.03848
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.943577
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.886152
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.11159
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.03581
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.952432
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.936937
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.12002
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01593
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.0255
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.941881
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.10215
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.971078
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.987328
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.965676
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.03853
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.947764
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+[I 05:37:17.132 NotebookApp] Saving file at /hw1/Codes.ipynb
+Iteration: 2
+Time elapsed : 0.997105
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.08794
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.08457
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00041
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01958
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.913483
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.918214
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.745216
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.954023
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.896638
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.915467
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.728571
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.948947
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.03298
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.0667
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.979215
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00478
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.964798
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.09307
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.998206
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.964085
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.980794
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.05434
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.964475
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.07517
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.06929
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.894608
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.99976
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.08652
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.11045
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.954901
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.976172
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00939
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.09396
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.959838
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.999608
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01361
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.085
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.897387
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.988378
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.04489
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01173
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.0096
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.954524
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.11982
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.999902
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.06834
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.995534
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.0067
+[I 05:38:57.838 NotebookApp] Saving file at /hw1/sparse_coding.py
+[I 05:39:05.799 NotebookApp] Saving file at /hw1/sparse_coding.py
+[I 05:39:09.730 NotebookApp] Starting buffering for d962d273-c608-4e98-b3ec-f2f9d058af01:9c1815fc46594ec186332c2caac93903
+[I 05:39:10.254 NotebookApp] Kernel restarted: d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:39:12.570 NotebookApp] Adapting to protocol v5.1 for kernel d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:39:12.572 NotebookApp] Restoring connection for d962d273-c608-4e98-b3ec-f2f9d058af01:9c1815fc46594ec186332c2caac93903
+[I 05:39:12.572 NotebookApp] Replaying 6 buffered messages
+[I 05:39:17.146 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:39:23.525 NotebookApp] Saving file at /hw1/sparse_coding.py
+[I 05:39:24.401 NotebookApp] Saving file at /hw1/sparse_coding.py
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.02674
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.04278
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.945
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.98421
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.990138
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.09974
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00973
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.971794
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.947223
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.1043
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.994359
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01064
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.909865
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.09051
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.03993
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+[I 05:39:52.336 NotebookApp] Kernel interrupted: d962d273-c608-4e98-b3ec-f2f9d058af01
+Time elapsed : 0.96521
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.969805
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.05599
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.958638
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.993029
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+[I 05:40:23.886 NotebookApp] Kernel interrupted: d962d273-c608-4e98-b3ec-f2f9d058af01
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.958335
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.970257
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.03256
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.941969
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.984113
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.935405
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.11687
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00272
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.980136
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.960841
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.13593
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.995217
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01477
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.979942
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.10684
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.04978
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.975885
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.927057
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.10428
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.05331
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.966467
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.970479
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.13255
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.0387
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01221
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.960389
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.11819
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.976687
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.99818
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.964454
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.05555
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.954276
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.985848
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.06732
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.09751
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00721
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.04052
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.913695
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.923674
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.777322
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.957288
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.893553
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.9489
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.730705
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.960196
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.0383
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.08011
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.0046
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.998461
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+[I 05:41:17.239 NotebookApp] Saving file at /hw1/Codes.ipynb
+Iteration: 2
+Time elapsed : 0.998912
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.07286
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.0044
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.971794
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.990579
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.06545
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.991097
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.086
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.06883
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.924437
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01295
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.09848
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.09862
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.955922
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.987777
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.998548
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.07703
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.983234
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.996234
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00319
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.07652
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.918784
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00778
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.05678
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00474
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.026
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.97693
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.12174
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.00827
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.08224
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 0.996927
+num param iterD: 1
+Online Dictionary Learning with no parameter 
+mode Alpha 2
+Cleaning activated 
+batch size: 6400
+L: 59
+lambda: 0.01
+mode: 2
+*****Online Dictionary Learning*****
+Iteration: 0
+Iteration: 1
+Iteration: 2
+Time elapsed : 1.01519
+[I 05:43:17.284 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:44:06.213 NotebookApp] Kernel interrupted: d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 05:44:48.751 NotebookApp] Saving file at /hw1/ammai_hw1.py
+[I 05:44:52.203 NotebookApp] Saving file at /hw1/ammai_hw1.py
+[I 05:44:53.075 NotebookApp] Saving file at /hw1/ammai_hw1.py

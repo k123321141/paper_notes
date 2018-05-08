@@ -1,2 +1,5 @@
 *.swp
 *.pickle
+./hw/.ipynb_checkpoints
+log
+nohup.*

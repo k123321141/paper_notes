@@ -8165,3 +8165,83 @@ Iteration: 504
 [I 23:06:45.208 NotebookApp] Saving file at /hw1/Codes.ipynb
 [I 23:12:22.794 NotebookApp] Saving file at /hw1/Codes.ipynb
 [I 23:53:39.721 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 02:30:46.341 NotebookApp] Serving notebooks from local directory: /home2/master/k123/git/paper_notes/hw
+[I 02:30:46.342 NotebookApp] 0 active kernels
+[I 02:30:46.342 NotebookApp] The Jupyter Notebook is running at:
+[I 02:30:46.342 NotebookApp] https://[all ip addresses on your system]:5000/
+[I 02:30:46.342 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 02:30:48.498 NotebookApp] Kernel started: 0013847f-b7d6-4470-8e94-648289671879
+[I 02:30:49.754 NotebookApp] Adapting to protocol v5.1 for kernel 0013847f-b7d6-4470-8e94-648289671879
+[I 02:32:48.761 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 02:34:49.118 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 02:36:48.765 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 02:38:48.781 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 02:40:48.782 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 02:47:31.242 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 02:49:31.236 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 02:51:31.258 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 02:53:31.273 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 02:55:31.304 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 02:57:31.385 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 02:59:31.322 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:01:31.489 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:03:31.441 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:05:31.447 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:07:31.459 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:09:31.384 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:11:31.454 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:23:25.538 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:25:25.586 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:27:25.580 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:29:25.600 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:31:25.506 NotebookApp] Saving file at /hw1/Codes.ipynb
+[W 03:31:48.196 NotebookApp] IOPub data rate exceeded.
+    The notebook server will temporarily stop sending output
+    to the client in order to avoid crashing it.
+    To change this limit, set the config variable
+    `--NotebookApp.iopub_data_rate_limit`.
+    
+    Current values:
+    NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec)
+    NotebookApp.rate_limit_window=3.0 (secs)
+    
+[I 03:33:25.538 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:39:26.272 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:47:30.926 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 03:49:40.926 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 04:02:26.500 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 04:06:48.547 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 04:08:48.596 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 04:17:11.499 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 04:37:31.194 NotebookApp] Kernel interrupted: 0013847f-b7d6-4470-8e94-648289671879
+[I 04:37:46.841 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 04:37:47.462 NotebookApp] Saving file at /hw1/Codes.ipynb
+[C 04:37:57.824 NotebookApp] received signal 15, stopping
+[I 04:37:57.825 NotebookApp] Shutting down 1 kernel
+[I 04:38:02.881 NotebookApp] Kernel shutdown: 0013847f-b7d6-4470-8e94-648289671879
+[I 04:38:13.435 NotebookApp] Serving notebooks from local directory: /home2/master/k123/git/paper_notes/hw
+[I 04:38:13.435 NotebookApp] 0 active kernels
+[I 04:38:13.435 NotebookApp] The Jupyter Notebook is running at:
+[I 04:38:13.435 NotebookApp] https://[all ip addresses on your system]:5000/
+[I 04:38:13.435 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 04:38:16.980 NotebookApp] Kernel started: d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 04:38:18.319 NotebookApp] Adapting to protocol v5.1 for kernel d962d273-c608-4e98-b3ec-f2f9d058af01
+[I 04:40:17.185 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 04:48:17.179 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 04:50:17.238 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 04:51:46.935 NotebookApp] Creating new file in /hw1
+[I 04:52:19.112 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 04:55:49.011 NotebookApp] Saving file at /hw1/l2_distance.py
+[I 04:56:22.347 NotebookApp] Creating new file in /hw1
+[I 04:56:52.747 NotebookApp] Saving file at /hw1/calculate_map.py
+[I 04:58:21.361 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 04:58:44.806 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:00:21.366 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:00:52.938 NotebookApp] Saving file at /hw1/calculate_map.py
+[I 05:00:58.664 NotebookApp] Saving file at /hw1/calculate_map.py
+[I 05:01:10.278 NotebookApp] Saving file at /hw1/calculate_map.py
+[I 05:01:26.553 NotebookApp] Saving file at /hw1/calculate_map.py
+[I 05:02:21.449 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:03:42.523 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:04:12.171 NotebookApp] Saving file at /hw1/Codes.ipynb
+[I 05:04:21.408 NotebookApp] Saving file at /hw1/Codes.ipynb

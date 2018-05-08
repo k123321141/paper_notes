@@ -15,7 +15,11 @@ query_labels = lfw['query_name'].ravel()
 # print(mAP)
 
 #part 2: sparse_coding
-q_sparse, db_sparse = sparse_coding(lfw['query_feature'], lfw['database_feature']) #build sparse dict and lookup using spams library
+param = { 'K' : 400,
+                  'lambda1' : 0.01, 'numThreads' : -1, 'mode':2,
+                  'iter' : 1}
+        
+q_sparse, db_sparse = sparse_coding(lfw['query_feature'], lfw['database_feature'], param) #build sparse dict and lookup using spams library
 sparse_map = calculate_map(db_sparse, labels, q_sparse, query_labels, similarity_sparse_coding)# results_sparse = distance(q_sparse, db_sparse) #you can use l2_distance in part1 or try any distance metric, like cos, l1 
 print(sparse_map)
 #part 3
@@ -29,7 +33,7 @@ for k in K:
         param = { 'K' : k,
                   'lambda1' : l1, 'numThreads' : -1, 'mode':2,
                   'iter' : iter_}
-        q_sparse, db_sparse = sparse_coding(lfw['query_feature'], lfw['database_feature']) #build sparse dict and lookup using spams library
+        q_sparse, db_sparse = sparse_coding(lfw['query_feature'], lfw['database_feature'], param) #build sparse dict and lookup using spams library
         sparse_map = calculate_map(db_sparse, labels, q_sparse, query_labels, similarity_sparse_coding)# results_sparse = distance(q_sparse, db_sparse) #you can use l2_distance in part1 or try any distance metric, like cos, l1 
 
         print(k,l1, sparse_map)

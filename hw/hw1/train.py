@@ -1,4 +1,6 @@
 import pickle
+import spams
+import numpy as np
 with open('./hw1_data/data.pickle','rb') as f:
     data = pickle.load(f)
 #print data.keys()
@@ -10,37 +12,32 @@ src = data['database_feature']
 with open('./hw1_data/lfw_attributes.txt') as f:
     ls = f.readlines()
 
+def train_SC(src, K=400, lambda1=0.01, iter_=-10,out_file='dict.npy'):
 
-import spams
-import numpy as np
-num = src.shape[0]
-'''
-# X = src.reshape([num, 80,59])
+    num = src.shape[0]
+    X = src.reshape([num, 80,59])
+    X = np.swapaxes(X,axis1=0,axis2=2)
 
-# X = np.swapaxes(X,axis1=0,axis2=2)
-'''
-X = src.reshape([num, 59,80])
-X = np.swapaxes(X,axis1=0,axis2=1)
-X = np.swapaxes(X,axis1=1,axis2=2)
-
-lambda1 = [10**i for i in range(-6,-3,1)]
-K = range(100,3200,400)
-param = { 'K' : 1600, # learns a dictionary with 100 elements
-          'lambda1' : 10**-3, 'numThreads' : -1, 'mode':2,
-          'iter' : -800}
-    
+    #lambda1 = [10**i for i in range(-6,-3,1)]
+    #K = range(100,3200,400)
+    param = { 'K' : K, # learns a dictionary with 100 elements
+              'lambda1' : lambda1, 'numThreads' : -1, 'mode':2,
+              'iter' : iter_}
+        
 
 
-D_list = []
-pathces_num = X.shape[1]
-for i in range(pathces_num):
-    x = np.asfortranarray(X[:,i,:])
-    D = spams.trainDL(x,**param)
-    D_list.append(D)
-out_file = 'dict4.npy'
-with open(out_file,'wb') as f:
-    np.save(f,D_list)
-print('Done')
-with open(out_file,'rb') as f:
-    data = np.load(f)
-print(data.shape)
+    D_list = []
+    pathces_num = X.shape[1]
+    for i in range(pathces_num):
+        x = np.asfortranarray(X[:,i,:])
+        D = spams.trainDL(x,**param)
+        D_list.append(D)
+    with open(out_file,'wb') as f:
+        np.save(f,D_list)
+    print('Done')
+    with open(out_file,'rb') as f:
+        data = np.load(f)
+    print(data.shape)
+
+if __name__ == '__main__':
+    train_SC(src)

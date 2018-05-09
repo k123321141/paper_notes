@@ -11738,3 +11738,6 @@ Time elapsed : 1.01519
 [I 19:48:38.725 NotebookApp] Saving file at /hw1/Codes.ipynb
 [I 19:48:56.794 NotebookApp] Saving file at /hw1/Codes.ipynb
 [I 19:48:57.683 NotebookApp] Starting buffering for d962d273-c608-4e98-b3ec-f2f9d058af01:f088427d6b4f4e018c3e785afe15e952
+[C 19:49:16.336 NotebookApp] received signal 15, stopping
+[I 19:49:16.337 NotebookApp] Shutting down 1 kernel
+[I 19:49:16.743 NotebookApp] Kernel shutdown: d962d273-c608-4e98-b3ec-f2f9d058af01

@@ -51,3 +51,76 @@ ref: http://www.cmlab.csie.ntu.edu.tw/~cyy/learning/tutorials/EnsembleLearning.p
 
 
 
+
+補充：</br>
+基尼不純度指標[編輯]
+在CART算法中, 基尼不純度表示一個隨機選中的樣本在子集中被分錯的可能性。基尼不純度為這個樣本被選中的機率乘以它被分錯的機率。當一個節點中所有樣本都是一個類時，基尼不純度為零。
+假設y的可能取值為{1, 2, ..., m},令fi是樣本被賦予i的機率，則基尼指數可以通過如下計算：
+ID3, C4.5 和 C5.0 決策樹的生成使用信息增益。信息增益 是基於資訊理論中 信息熵的理論.
+
+
+訓練一棵最優的決策樹是一個完全NP問題。[9][10] 因此, 實際應用時決策樹的訓練採用啟發式搜索算法例如 貪心算法 來達到局部最優。這樣的算法沒辦法得到最優的決策樹。
+決策樹創建的過度複雜會導致無法很好的預測訓練集之外的數據。這稱作過擬合.[11] 剪枝機制可以避免這種問題。
+有些問題決策樹沒辦法很好的解決,例如 異或問題。解決這種問題的時候，決策樹會變得過大。 要解決這種問題，只能改變問題的領域[12] 或者使用其他更為耗時的學習算法 (例如統計關係學習 或者 歸納邏輯編程).
+對那些有類別型屬性的數據, 信息增益 會有一定的偏置
+
+　　優點：
+
+　　1)　可以生成可以理解的規則；
+
+　　2)　計算量相對來說不是很大；
+
+　　3) 可以處理連續和種類欄位；
+
+　　4) 決策樹可以清晰的顯示哪些欄位比較重要。
+
+　　缺點：
+
+　　1) 對連續性的欄位比較難預測；
+
+　　2) 對有時間順序的數據，需要很多預處理的工作；
+
+　　3) 當類別太多時，錯誤可能就會增加的比較快；
+
+　　4) 一般的演算法分類的時候，只是根據一個欄位來分類。
+
+### split measure 
+我認為最一開始都是為了找出(0.,0.5)這樣的資料 比(0.9, 0.1)更糟的表示法
+
+### gini index
+
+gini index 源自機率的描述，假設共有k個類別，而在Node_m時P_k為類別k在Node_m的比例。</br>
+則在Node_m判斷為k類別且k類別判斷錯誤的機率為P_k * (1-P_k)</br>
+加總每個類別的錯誤即是gini index
+
+Among decision support tools, decision trees (and influence diagrams) have several advantages. Decision trees:
+
+Are simple to understand and interpret. People are able to understand decision tree models after a brief explanation.
+Have value even with little hard data. Important insights can be generated based on experts describing a situation (its alternatives, probabilities, and costs) and their preferences for outcomes.
+Allow the addition of new possible scenarios.
+Help determine worst, best and expected values for different scenarios.
+Use a white box model. If a given result is provided by a model.
+Can be combined with other decision techniques.
+Disadvantages of decision trees:
+
+They are unstable, meaning that a small change in the data can lead to a large change in the structure of the optimal decision tree.
+They are often relatively inaccurate. Many other predictors perform better with similar data. This can be remedied by replacing a single decision tree with a random forest of decision trees, but a random forest is not as easy to interpret as a single decision tree.
+For data including categorical variables with different number of levels, information gain in decision trees is biased in favor of those attributes with more levels.[6]
+Calculations can get very complex, particularly if many values are uncertain and/or if many outcomes are linked.
+
+### drawback conclusion
+分類效能不夠好
+缺乏高維度線性或非線性轉換
+難以理解的線性關係(需要從多層的condition找出)
+information gain 容易受到含有大量數值的屬性影響，例如信用卡號</br>
+卡號這個屬性可以直接將樹切到leaf，所以information gain會首先取用這個屬性。</br>
+
+Information gain ratio is sometimes used instead. This biases the decision tree against considering attributes with a large number of distinct values. However, attributes with very low information values then appeared to receive an unfair advantage.
+相對於每個屬性做normalize，對於沒有夾帶太多資訊的屬性，會過份重視。
+no online, overfit
+忽略了數據之間的相關性(線性或非線性關係)；
+
+對於那些各類別樣本數量不一致的數據，在決策樹當中,信息增益的結果偏向於那些具有更多數值的特徵（只要是使用了信息增益，都有這個缺點，如RF）
+
+
+原文網址：https://kknews.cc/zh-tw/tech/o8jo4q.html

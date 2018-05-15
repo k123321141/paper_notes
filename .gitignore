@@ -3,4 +3,5 @@
 *.pickle
 ./hw/.ipynb_checkpoints
 log
+record
 nohup.*

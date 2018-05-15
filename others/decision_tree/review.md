@@ -84,6 +84,7 @@ ID3, C4.5 和 C5.0 決策樹的生成使用信息增益。信息增益 是基於
 
 　　4) 一般的演算法分類的時候，只是根據一個欄位來分類。
 
+    5)在处理特征关联性比较强的数据时表现得不是太
 ### split measure 
 我認為最一開始都是為了找出(0.,0.5)這樣的資料 比(0.9, 0.1)更糟的表示法
 
@@ -95,7 +96,7 @@ gini index 源自機率的描述，假設共有k個類別，而在Node_m時P_k�
 
 Among decision support tools, decision trees (and influence diagrams) have several advantages. Decision trees:
 
-Are simple to understand and interpret. People are able to understand decision tree models after a brief explanation.
+Are simple to understand and interpret. People are able to understand decision tree models after a brief explanation
 Have value even with little hard data. Important insights can be generated based on experts describing a situation (its alternatives, probabilities, and costs) and their preferences for outcomes.
 Allow the addition of new possible scenarios.
 Help determine worst, best and expected values for different scenarios.
@@ -124,3 +125,5 @@ no online, overfit
 
 
 原文網址：https://kknews.cc/zh-tw/tech/o8jo4q.html
+
+最一開始DT的假設沒有考慮的離散數值的差異，像是用每一攝氏溫度離散處理，當切分體溫38度，但是在38度附近的分佈可能有許多雜訊是介於有發燒徵狀，或是其實沒有。而另一種非連續數值像是有糖尿病的患者與沒有糖尿病的樣本之間，介於輕微心臟病或是沒有心臟病的雜訊就相對小，DT處理體溫這種連續數值就算是比較難以處理的問題。

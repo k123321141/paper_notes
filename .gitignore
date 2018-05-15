@@ -1,5 +1,7 @@
 *.swp
 *.pyc
+*.npy
+*.npz
 *.pickle
 ./hw/.ipynb_checkpoints
 log

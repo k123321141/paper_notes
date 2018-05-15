@@ -14,7 +14,7 @@ query_labels = lfw['query_name'].ravel()
 lambda1 = [10**i for i in range(-4,-1,1)]
 K = range(40,1600,100)
 K = [40 * 2**i for i in range(6)]
-iter_ = -5
+iter_ = 1
 for k in K:
     for l1 in lambda1:
         
@@ -22,7 +22,11 @@ for k in K:
         param = { 'K' : k,
                   'lambda1' : l1, 'numThreads' : -1, 'mode':2,
                   'iter' : iter_}
+        print('starting Train')
+        
         q_sparse, db_sparse = sparse_coding(lfw['query_feature'], lfw['database_feature'], param) #build sparse dict and lookup using spams library
+        print('starting mAP')
+        
         sparse_map = calculate_map(db_sparse, labels, q_sparse, query_labels, similarity_sparse_coding)# results_sparse = distance(q_sparse, db_sparse) #you can use l2_distance in part1 or try any distance metric, like cos, l1 
 
         print('performance',k,l1, sparse_map)

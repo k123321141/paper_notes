@@ -11,7 +11,7 @@ Inputs:
 """
 
 
-def train_SC(database, param, out_file='./dict.npy'):
+def train_SC(database, param):
 
 
     num = database.shape[0]
@@ -24,14 +24,15 @@ def train_SC(database, param, out_file='./dict.npy'):
         x = np.asfortranarray(X[:,i,:])
         D = spams.trainDL(x,**param)
         D_list.append(D)
-#     with open(out_file,'wb') as f:
-#         np.save(f,D_list)
-#     print('Done')
-#     with open(out_file,'rb') as f:
-#         data = np.load(f)
-#     print(data.shape)
     return D_list
 
+def save_D_list(D_list, out_file='./dict.npy'):
+    with open(out_file,'wb') as f:
+        np.save(f,D_list)
+    with open(out_file,'rb') as f:
+        data = np.load(f)
+    print(data.shape)
+    
     
 def get_codeword(D_list, X,lambda1=0.01):
     

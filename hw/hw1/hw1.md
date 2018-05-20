@@ -45,6 +45,6 @@ ASC強迫不同attribute的image必須使用不同的column去組成原本的ima
 
 
 [1]: https://github.com/k123321141/paper_notes/blob/master/class/img1.png
-[2]: https://github.com/k123321141/paper_notes/blob/master/hw/fig4.png
-[3]: https://github.com/k123321141/paper_notes/blob/master/hw/equ3.png
+[2]: https://github.com/k123321141/paper_notes/blob/master/hw/hw1/fig4.png
+[3]: https://github.com/k123321141/paper_notes/blob/master/hw/hw1/equ3.png
 

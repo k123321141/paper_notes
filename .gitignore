@@ -1,9 +1,11 @@
 *.swp
 *.pyc
 *.npy
+*.csv
 *.npz
 *.pickle
 ./hw/.ipynb_checkpoints
 log
 record
 nohup.*
+emotion_recognition-*

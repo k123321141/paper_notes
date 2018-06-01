@@ -9,3 +9,4 @@ log
 record
 nohup.*
 emotion_recognition-*
+checkpoint

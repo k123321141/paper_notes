@@ -7,7 +7,7 @@
 3. make in python dir under libsvm, to generate library file libsvm.so.2, under libsvm dir.
 
 4. mv libsvm.so.2 to system path.</br>
-I move it to '/Library/Python/2.7/Library/Python/2.7/'
+I move it to '/Library/Python/2.7/'
 
 5. cp svm.py  svmutil.py to python path, make it callable to python shell.</br>
 I choose '/Library/Python/2.7/site-packages/'</br>

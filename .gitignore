@@ -12,3 +12,4 @@ emotion_recognition-*
 checkpoint
 *.hdf5
 *.jpg
+final/.ipynb_checkpoints/*

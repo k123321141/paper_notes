@@ -9,6 +9,7 @@ log
 record
 nohup.*
 emotion_recognition-*
+final/.ipynb_checkpoints/*
 checkpoint
 *.hdf5
 *.jpg

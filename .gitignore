@@ -10,3 +10,5 @@ record
 nohup.*
 emotion_recognition-*
 checkpoint
+*.hdf5
+*.jpg

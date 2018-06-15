@@ -13,5 +13,8 @@ final/.ipynb_checkpoints/*
 checkpoint
 *.hdf5
 *.jpg
-*.mp4
+*.png
 final/.ipynb_checkpoints/*
+.DS_Store
+*.zip
+*.mp4

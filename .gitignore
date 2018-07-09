@@ -19,3 +19,5 @@ final/.ipynb_checkpoints/*
 *.zip
 *.mp4
 *.opt
+*ubyte
+*.pt

@@ -16,15 +16,15 @@ I choose '/Library/Python/2.7/site-packages/'</br>
 
 1. clone libsvm from https://github.com/cjlin1/libsvm
 
-2. make in libsvm dir, to generate binary executable file.(svm-predict, svm-train, svm-scale.)
+2. type 'make' in libsvm dir, to generate binary executable file.(svm-predict, svm-train, svm-scale.)
 
-3. make in python dir under libsvm, to generate library file libsvm.so.2, under libsvm dir.
+3. type 'make' in python dir under libsvm, to generate library file libsvm.so.2, under libsvm dir.
 
-4. mv libsvm.so.2 to python path.</br>
-I move it to '/usr/lib/python2.7/'</br>
+4. mv libsvm.so.2 to python lib path.</br>
+I move it to my virtualenv python lib directory. '~/env/python2.7/lib/'</br>
 
-5. cp svm.py  svmutil.py to python path, make it callable to python shell.</br>
-I choose '/Library/Python/2.7/site-packages/'</br>
+5. cp svm.py  svmutil.py commonutil.py to python lib path.</br>
+I move it to my virtualenv python lib directory. '~/env/python2.7/lib/python2.7'</br>
 
 
 ### Manual

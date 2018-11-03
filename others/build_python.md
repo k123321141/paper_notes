@@ -1,5 +1,5 @@
 ## First try
-add %HOME/.local to setup.py with inc_dirs and lib_dirs
+add %HOME/.local to setup.py with inc_dirs and lib_dirs </b>
 add path to $LD_LIBRARY_PATH
 
 ## ssl support

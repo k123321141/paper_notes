@@ -146,7 +146,7 @@ Homogeneity score:
 ### Completeness
 
 Completeness：
-true cluster裡面所有的sample都是同一個pred_lable
+true cluster裡面所有的sample都是同一個pred_label
 
 
 Completeness score:
